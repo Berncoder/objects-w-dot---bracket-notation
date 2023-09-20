@@ -1,8 +1,8 @@
-<!-- accessing OBJECT properties w DOT and BRACKET notation -->
+// accessing OBJECT properties w DOT and BRACKET notation 
 
-<!--Read in the property values of testObj using dot notation. 
+/* Read in the property values of testObj using dot notation. 
 Set the variable hatValue equal to the object's property hat and set the 
-variable shirtValue equal to the object's property shirt. -->
+variable shirtValue equal to the object's property shirt. */
 
 const testObj = {
   "hat": "ballcap",
@@ -14,7 +14,7 @@ const testObj = {
 const hatValue = testObj.hat;      
 const shirtValue = testObj.shirt; 
 
-<!-- using bracket notation-->
+// using bracket notation
 
 const testObj = {
   "an entree": "hamburger",
@@ -25,7 +25,7 @@ const testObj = {
 const entreeValue = testObj["an entree"];   
 const drinkValue = testObj["the drink"];    
 
-<!-- set the playerNumber to 16. Then, use the variable to look up the player's name and assign it to player. -->
+// set the playerNumber to 16. Then, use the variable to look up the player's name and assign it to player.
 
 const testObj = {
     12: "Namath",
